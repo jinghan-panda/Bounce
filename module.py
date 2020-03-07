@@ -1,6 +1,7 @@
 import time
 import sys
 
+
 def ask_time():
 	print('Type something:')    
 	hehe = sys.stdin.readline()
@@ -29,10 +30,13 @@ def moon_weight_in_years(curr_weight, in_years, percentage):
 		wei = wei + 1
 
 
-
-
 if __name__ == '__main__':
 	# for x in range(0, 5):
 	# 	ask_age()
 	
 	moon_weight_in_years(curr_weight = 30, in_years = 5, percentage = 0.165)
+
+
+
+
+
